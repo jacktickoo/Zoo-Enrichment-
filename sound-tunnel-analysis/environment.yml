@@ -1,0 +1,11 @@
+name: monkeysounds-env
+channels:
+  - defaults
+dependencies:
+  - matplotlib
+  - scipy
+  - pandas
+  - jupyterlab
+  - python=3.7
+prefix: /u/83/piitulr1/unix/miniconda3/envs/monkeysounds
+
