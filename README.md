@@ -3,7 +3,7 @@
 This repository contains the code and data for the article "Music for Monkeys: Building Methods to Design with White-Faced Sakis
 for Animal-Driven Audio Enrichment Devices" (TODO: add link/citation).
 
-### Prototypecode
+### Prototype code
 
 The directory "prototype-code" contains the code of the musical device prototype
 
