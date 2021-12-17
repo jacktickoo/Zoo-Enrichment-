@@ -12,7 +12,7 @@ class Logger:
     def __init__(self):
         # TODO change sheet names!
         # Name of the Google Sheets document
-        self.DOCNAME = "DOC_NAME"
+        self.DOCNAME = "l4project"
         # These are the two worksheets that are used
         self.LOGSHEET = "LOG_SHEET"
         self.ALIVESHEET = "ALIVE_SHEET"
@@ -27,7 +27,7 @@ class Logger:
         scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
 	# TODO needs client secret for API
         self.creds = ServiceAccountCredentials.from_json_keyfile_name('client_secret.json', scope)
-        self.client = gspread.authorize(self.creds)§
+        self.client = gspread.authorize(self.creds)
         self.client.login()
 
         self.sheets()

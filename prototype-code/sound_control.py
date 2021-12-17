@@ -41,7 +41,7 @@ class MyPlayer(MPyg321Player):
 # Just an example
 def do_some_play_pause(player):
     """Does some play and pause"""
-    player.play_song("sample.mp3")
+    player.play_song("music.mp3")
     sleep(5)
     player.pause()
     sleep(3)
